@@ -1,0 +1,124 @@
+/* CSS Document */
+/*FONTS*/
+@font-face {
+	font-family: 'VAGRoundedStdBold';
+	src: url('../fonts/vagroundedstd-bold-webfont.eot');
+	src: url('../fonts/vagroundedstd-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/vagroundedstd-bold-webfont.woff') format('woff'), url('../fonts/vagroundedstd-bold-webfont.ttf') format('truetype'), url('../fonts/vagroundedstd-bold-webfont.svg#VAGRoundedStdBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'VAGRoundedStdThin';
+	src: url('../fonts/vagroundedstd-thin-webfont.eot');
+	src: url('../fonts/vagroundedstd-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/vagroundedstd-thin-webfont.woff') format('woff'), url('../fonts/vagroundedstd-thin-webfont.ttf') format('truetype'), url('../fonts/vagroundedstd-thin-webfont.svg#VAGRoundedStdThin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*STYLES*/
+body{background: #3e3e3e; font-family: 'Open Sans', sans-serif; font-weight: 300; color: #333;}
+
+
+
+
+
+
+#header, #headerTopBar{background: #000; color: #FFF;}
+#headerTopBar{padding: 8px 0; z-index:999 !important;}
+#headerTopBar a{color: #fff;}
+input[type="text"], input[type="email"]{   -webkit-appearance:none;  
+    -webkit-border-radius:0px; font-size: 1em;}
+
+#headerTopBar .poweredby{font-family: 'VAGRoundedStdThin', 'PT Sans', sans-serif; }
+#headerTopBar .poweredby strong{font-family: 'VAGRoundedStdBold'; font-weight:normal;}
+
+#subheader{background: #44c8f5;  padding-top: 100px; padding-bottom: 40px;}
+#subheader h1{color: #FFF;}
+#subheader h2{font-size: 1.5em; font-weight: 400; padding: 0; margin: 0; margin-bottom: 20px;}
+#subheader h2 a{text-decoration: none; border-bottom: 2px solid #44c8f5; color: #838383; }
+#subheader p{font-size: 1.1em; line-height: 1.8em;}
+#subheader .newsitem .content{background: #FFF; padding: 30px;}
+
+
+
+
+#corps{background: #fff; padding: 60px 0;}
+a{color: #44c8f5; text-decoration:underline;}
+
+#corps h2{font-family: 'Open Sans', sans-serif;}
+
+
+ul.iconlist, ul.iconlist li{margin: 0; padding: 0; list-style: none;}
+ul.iconlist{font-size: 0;}
+ul.iconlist li{display: inline-block; font-size: 14px; margin-right: 10px; margin-bottom: 10px; font-weight: 400;}
+
+
+ a.btn-sq{color: #FFF;  display: block;  text-decoration: none;   width: 100px; height: 100px; overflow: hiden; -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+ -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+a.btn-sq.blue{background: #44c8f5;}
+a.btn-sq.magenta{background: #ec008c;}
+a.btn-sq.yellow{background: #fff200;  color: #000;}
+
+a.btn-sq:hover{background: #3e3e3e; color: #FFF;}
+
+a.btn-sq .content{  position: relative;
+  top: 50%;
+  transform: translateY(-50%); text-align: center;
+  overflow: hidden;
+  }
+
+a.btn-sq .content i{font-size: 2em; display: block; margin-bottom: 7px;}
+a.btn-sq .content span{display: block; font-size: 14px; padding: 0 5px;}
+
+
+
+
+
+footer{padding-top: 20px;}
+
+
+
+.box.gray{background: #EFEFEF;}
+.box .content{padding: 20px;}
+.box a{color: #44c8f5;}
+.box a:hover{color: #333;}
+ul.tree > li{list-style: none; margin-left: 0; padding-left: 0; font-weight: bold; text-transform: uppercase;}
+ul.tree > li > ul > li{font-weight: normal; text-transform: none; padding-bottom: 15px; line-height: 1.6em; }
+ul.tree > li > ul li:last-child{ padding-bottom: 0;}
+ul.tree > li > ul > li > ul > li{padding-bottom: 15px;}
+
+ul.tree{margin-left: 0; padding-left: 0;}
+
+
+/* Extra Small Devices, .visible-xs-* */
+@media (max-width: 767px) {
+
+	} 
+
+
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	}
+
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {}
+
+
+body{margin-top:50px;}
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
